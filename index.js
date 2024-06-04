@@ -32,12 +32,10 @@ b.toString()
 console.log(b)
 
 const object ={
-
     name:"jubair",
     father:"kasim",
     mother:"vagitha banu"
 }
-
 console.table(object)     //table shows table formate data
 
 let data =["a","b","c","d","e"]
@@ -53,5 +51,10 @@ console.log(joins)
 
 let y =["a","b"]
 console.log(y.concat(["c","d"]))
+
+let myArr = [[1,2],[3,4],[5,6]];  //separet this sub array with single array
+let d= myArr.flat()
+console.log(d)
+
 
 
