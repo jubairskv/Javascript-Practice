@@ -1,3 +1,5 @@
+//Array methods
+
 let arr =[1,2,3,4,5,6,7,8,9,10]
 arr.push("banna","orange")  //add one or more element from the end
 console.log(arr)
@@ -45,3 +47,11 @@ let x=data.at(2)                    //it return index of element
 console.log(x)
 let datas=data.toString()           //it convert array to string
 console.log(datas.at[3])
+
+let joins = data.join(" + ")
+console.log(joins)
+
+let y =["a","b"]
+console.log(y.concat(["c","d"]))
+
+
