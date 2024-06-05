@@ -84,7 +84,7 @@ obj.push({Name:"kasim",lastName:"suliman",age:"expired"})
 obj[3].age="58"
 
 
-console.table(obj[0].Name="Lopamudra")
+console.table(obj[0].Name="Jubair Kasim")
 console.table(obj[0].Name="Jubair")
 console.table(obj)
 let age =obj.filter(e=>e.age<=30)
